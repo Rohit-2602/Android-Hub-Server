@@ -39,4 +39,7 @@ dependencies {
     implementation("io.insert-koin:koin-ktor:$koinVersion")
     implementation("io.insert-koin:koin-logger-slf4j:$koinVersion")
 
+    // Apache Common Email
+    implementation("org.apache.commons:commons-email:1.5")
+
 }
