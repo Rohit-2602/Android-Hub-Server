@@ -9,9 +9,7 @@ fun main(args: Array<String>): Unit =
 @Suppress("unused")
 fun Application.module() {
     configureKoin()
-    configureSecurity()
     configureRouting()
-//    configureHTTP()
     configureMonitoring()
     configureSerialization()
 }
